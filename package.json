@@ -1,0 +1,21 @@
+{
+  "name": "ise_2019_airqualitydata_crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://cures.ifi.uni-heidelberg.de/bitbucket/scm/ise2019/ise_2019_airqualitydata_crawler.git"
+  },
+  "author": "Garrelt Becker",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "nodemon": "^2.0.2"
+  }
+}
