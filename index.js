@@ -22,7 +22,7 @@ async function requestApi() {
             // upload data
             const data = convertAirData(result[city], city);
             console.log(data)
-            if(!config.local) axios.post(config.storeApiEndpoint, { data }, {auth: { username: "ISE2019", password: "ISE2019" }});
+            if(!config.local) axios.post(config.storeApiEndpoint, { data });
         }
     }
 
